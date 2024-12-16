@@ -1,0 +1,109 @@
+
+
+body{
+    text-align: center;
+}
+
+.pricing{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.child{
+
+}
+
+.child h2{
+    font-family: "DM Serif Display", serif;
+    color: #BA4270;
+    margin-bottom: 81px;
+}
+
+.child h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 56px;
+    font-weight: 400;
+    color: #36536B;
+}
+
+.child div{
+    opacity: 50%;
+    list-style: none;
+}
+
+p{
+    visibility: hidden;
+    line-height: 28px;
+    color: #6C8294;
+}
+
+.child ul {
+    list-style: url('../assets/path.svg');
+    color: #36536B;
+    margin: auto;
+    text-align: left;
+    width: fit-content;
+    margin-bottom: 24px;
+    border-top: solid 1px rgba(54, 83, 107, 0.25);
+    border-bottom: solid 1px rgba(54, 83, 107, 0.25);
+}
+
+
+
+.child a{
+    display: inline-block;
+    padding: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: solid 1px black;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #36536B;
+    margin-bottom: 42px;
+}
+
+.child a:hover{
+    background-color: #36536B;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .pricing{
+        display: flex;
+    }
+    p{
+        visibility: visible;
+    }
+
+    .child h2{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        text-align: initial;
+    }
+    .pricing{
+        max-width: 1100px;
+    }
+
+    .child{
+        text-align: left;
+    }
+
+    .child ul{
+        margin: 0;
+    }
+    h1{
+        font-size: 56px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1100px;
+    }
+    .child h2{
+        font-size: 32px;
+    }
+}
