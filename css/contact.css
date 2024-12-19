@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact input, textarea{
+    border-radius: 0;
+    border: none;
+    background-color: #EDF3F8;
+    border-bottom: 1px solid rgb(199, 194, 194);
+    width: 100%;
+    margin-bottom: 24px;
+    resize: none;
+}
+
+textarea{
+    min-height: 89px;
+    padding-left: 27px;
+}
+
+.checkbox{
+    display: flex;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.checkbox input{
+    width: 24px;
+    height: 24px;
+    margin-right: 28px;
+}
+
+.contact button {
+    padding: 14px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 24px;
+    border: 1px solid black;
+    background: transparent;
+}
+
+.partner{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner h2{
+    margin-bottom: 32px;
+    color: #5d666d;
+}
+
+
+@media screen and (min-width: 768px) {
+    .contact{
+        display:block;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main{
+        max-width: 1100px;
+        display: flex;
+        align-items: center;
+        gap: 124px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 94px;
+    }
+    .partner{
+        text-align: left;
+    }
+}
